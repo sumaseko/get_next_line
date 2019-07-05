@@ -6,7 +6,7 @@
 /*   By: sumaseko <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/06/28 16:33:21 by sumaseko          #+#    #+#             */
-/*   Updated: 2019/06/28 16:40:45 by sumaseko         ###   ########.fr       */
+/*   Updated: 2019/07/04 16:32:22 by sumaseko         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@
 # define MAX_FD		2147483647
 
 # include <unistd.h>
-# include <libft/libft.h>
+# include "libft/libft.h"
 
 int		get_next_line(const int fd, char **line);
 
